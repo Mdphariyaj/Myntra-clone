@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.desktop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10;
+}
+
+.myntra-logo {
+    height: 36px;
+    width: 53px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px solid #ff3f6c;
+}
+
+.logo-container {
+    margin-left: 2%;
+}
+
+.action-bar {
+    margin-right: 4%;
+}
+
+.nav-bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+sup {
+    color: #ff3f6c;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.search-bar {
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    /* top: 2px; */
+}
+
+.search-icon {
+    width: 40px;
+    height: 35px;
+    background-color: #f5f5f6;
+    padding: 8px 0 2px 6px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    padding: 8px 10px 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.action-bar {
+    display: flex;
+    width: 194px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-name {
+    cursor: pointer;
+}
+
+.action-name:hover {
+    border-bottom: 2px solid #ff3f6c;
+}
+
+.banner-container {
+    /* position: relative;
+    /* top: 80px; *  margin: 40px 0; */
+    position: relative;
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.shop-heading {
+    color: #3e4152;
+    font-size: 28px;
+    margin: 50px 0px 10px 30px;
+}
+
+.category-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.sell-item {
+    width: 160px;
+    height: 210px;
+}
+
+.footer table {
+    margin: 10px 40px 10px 10px;
+    text-align: justify;
+}
